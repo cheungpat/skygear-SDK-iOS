@@ -8,6 +8,34 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSError+SKYError.h",
+      "line": 24,
+      "symbol": "NSError(SKYError).-SKYErrorMessage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSError+SKYError.h",
+      "line": 25,
+      "symbol": "NSError(SKYError).-SKYErrorType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSError+SKYError.h",
+      "line": 26,
+      "symbol": "NSError(SKYError).-SKYErrorCode",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSError+SKYError.h",
+      "line": 27,
+      "symbol": "NSError(SKYError).-SKYErrorInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSURLRequest+SKYRequest.h",
       "line": 23,
       "symbol": "SKYRequestHeaderAPIKey",
@@ -29,10 +57,94 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSURLRequest+SKYRequest.h",
+      "line": 28,
+      "symbol": "NSURLRequest(SKYRequest).+mutableRequestWithSKYRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/NSURLRequest+SKYRequest.h",
+      "line": 29,
+      "symbol": "NSURLRequest(SKYRequest).+requestWithSKYRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
       "line": 22,
       "symbol": "SKYAPSNotificationInfo",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 24,
+      "symbol": "SKYAPSNotificationInfo.+notificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 26,
+      "symbol": "SKYAPSNotificationInfo.alertBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 27,
+      "symbol": "SKYAPSNotificationInfo.alertLocalizationKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 28,
+      "symbol": "SKYAPSNotificationInfo.alertLocalizationArgs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 29,
+      "symbol": "SKYAPSNotificationInfo.alertActionLocalizationKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 30,
+      "symbol": "SKYAPSNotificationInfo.alertLaunchImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 31,
+      "symbol": "SKYAPSNotificationInfo.soundName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 32,
+      "symbol": "SKYAPSNotificationInfo.shouldBadge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 33,
+      "symbol": "SKYAPSNotificationInfo.shouldSendContentAvailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAPSNotificationInfo.h",
+      "line": 35,
+      "symbol": "SKYAPSNotificationInfo.-isEqualToNotificationInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -43,10 +155,206 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 29,
+      "symbol": "SKYAccessControl.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 32,
+      "symbol": "SKYAccessControl.-setNoAccessForUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 33,
+      "symbol": "SKYAccessControl.-setNoAccessForUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 34,
+      "symbol": "SKYAccessControl.-setNoAccessForRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 35,
+      "symbol": "SKYAccessControl.-setNoAccessForRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 36,
+      "symbol": "SKYAccessControl.-setNoAccessForPublic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 39,
+      "symbol": "SKYAccessControl.-setReadOnlyForUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 40,
+      "symbol": "SKYAccessControl.-setReadOnlyForUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 41,
+      "symbol": "SKYAccessControl.-setReadOnlyForRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 42,
+      "symbol": "SKYAccessControl.-setReadOnlyForRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 43,
+      "symbol": "SKYAccessControl.-setReadOnlyForPublic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 46,
+      "symbol": "SKYAccessControl.-setReadWriteAccessForUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 47,
+      "symbol": "SKYAccessControl.-setReadWriteAccessForUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 48,
+      "symbol": "SKYAccessControl.-setReadWriteAccessForRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 49,
+      "symbol": "SKYAccessControl.-setReadWriteAccessForRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 50,
+      "symbol": "SKYAccessControl.-setReadWriteAccessForPublic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 53,
+      "symbol": "SKYAccessControl.-hasReadAccessForUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 54,
+      "symbol": "SKYAccessControl.-hasReadAccessForUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 55,
+      "symbol": "SKYAccessControl.-hasReadAccessForRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 56,
+      "symbol": "SKYAccessControl.-hasReadAccessForRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 57,
+      "symbol": "SKYAccessControl.-hasReadAccessForPublic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 60,
+      "symbol": "SKYAccessControl.-hasWriteAccessForUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 61,
+      "symbol": "SKYAccessControl.-hasWriteAccessForUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 62,
+      "symbol": "SKYAccessControl.-hasWriteAccessForRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 63,
+      "symbol": "SKYAccessControl.-hasWriteAccessForRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessControl.h",
+      "line": 64,
+      "symbol": "SKYAccessControl.-hasWriteAccessForPublic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessToken.h",
       "line": 22,
       "symbol": "SKYAccessToken",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessToken.h",
+      "line": 24,
+      "symbol": "SKYAccessToken.tokenString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAccessToken.h",
+      "line": 26,
+      "symbol": "SKYAccessToken.-initWithTokenString:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -64,6 +372,55 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 24,
+      "symbol": "SKYAsset.+assetWithName:fileURL:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 25,
+      "symbol": "SKYAsset.+assetWithName:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 26,
+      "symbol": "SKYAsset.+assetWithFileURL:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 27,
+      "symbol": "SKYAsset.+assetWithData:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 29,
+      "symbol": "SKYAsset.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 30,
+      "symbol": "SKYAsset.url",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYAsset.h",
+      "line": 40,
+      "symbol": "SKYAsset.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYChangePasswordOperation.h",
       "line": 25,
       "symbol": "SKYChangePasswordOperation",
@@ -71,10 +428,38 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYChangePasswordOperation.h",
+      "line": 27,
+      "symbol": "SKYChangePasswordOperation.oldPassword",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYChangePasswordOperation.h",
+      "line": 28,
+      "symbol": "SKYChangePasswordOperation.passwordToSet",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYChangePasswordOperation.h",
+      "line": 30,
+      "symbol": "SKYChangePasswordOperation.changePasswordCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
       "line": 29,
       "symbol": "SKYContainerDelegate",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.protocol",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 31,
+      "symbol": "SKYContainerDelegate.-container:didReceiveNotification:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -89,6 +474,104 @@
       "line": 53,
       "symbol": "SKYContainer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 56,
+      "symbol": "SKYContainer.+defaultContainer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 58,
+      "symbol": "SKYContainer.delegate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 60,
+      "symbol": "SKYContainer.endPointAddress",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 62,
+      "symbol": "SKYContainer.publicCloudDatabase",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 63,
+      "symbol": "SKYContainer.privateCloudDatabase",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 65,
+      "symbol": "SKYContainer.containerIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 67,
+      "symbol": "SKYContainer.currentUserRecordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 68,
+      "symbol": "SKYContainer.currentAccessToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 69,
+      "symbol": "SKYContainer.currentUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 71,
+      "symbol": "SKYContainer.pubsubClient",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 73,
+      "symbol": "SKYContainer.defaultAccessControl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 93,
+      "symbol": "SKYContainer.-configAddress:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 107,
+      "symbol": "SKYContainer.-addOperation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYContainer.h",
+      "line": 238,
+      "symbol": "SKYContainer.-uploadAsset:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -155,6 +638,41 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDataSerialization.h",
+      "line": 35,
+      "symbol": "SKYDataSerialization.+dateFromString:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDataSerialization.h",
+      "line": 36,
+      "symbol": "SKYDataSerialization.+stringFromDate:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDataSerialization.h",
+      "line": 37,
+      "symbol": "SKYDataSerialization.+deserializeObjectWithValue:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDataSerialization.h",
+      "line": 38,
+      "symbol": "SKYDataSerialization.+deserializeAssetWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDataSerialization.h",
+      "line": 40,
+      "symbol": "SKYDataSerialization.+serializeObject:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
       "line": 30,
       "symbol": "SKYRecordSaveCompletion",
@@ -170,9 +688,100 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 34,
+      "symbol": "SKYDatabase.databaseID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 35,
+      "symbol": "SKYDatabase.container",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 37,
+      "symbol": "SKYDatabase.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 39,
+      "symbol": "SKYDatabase.-addOperation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 40,
+      "symbol": "SKYDatabase.-executeOperation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 41,
+      "symbol": "SKYDatabase.-commit",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 43,
+      "symbol": "SKYDatabase.-performQuery:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 45,
+      "symbol": "SKYDatabase.-performCachedQuery:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 191,
+      "symbol": "SKYDatabase.-fetchAllSubscriptionsWithCompletionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 193,
+      "symbol": "SKYDatabase.-fetchSubscriptionWithID:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 196,
+      "symbol": "SKYDatabase.-saveSubscription:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 198,
+      "symbol": "SKYDatabase.-deleteSubscriptionWithID:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
       "line": 204,
       "symbol": "SKYDatabase(SKYUser)",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.category",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 206,
+      "symbol": "SKYDatabase.currentUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -183,10 +792,24 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabase.h",
+      "line": 212,
+      "symbol": "SKYDatabase.-fetchUserNewsFeed:completionHandler:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabaseOperation.h",
       "line": 24,
       "symbol": "SKYDatabaseOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDatabaseOperation.h",
+      "line": 26,
+      "symbol": "SKYDatabaseOperation.database",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -197,10 +820,59 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineAdminRolesOperation.h",
+      "line": 26,
+      "symbol": "SKYDefineAdminRolesOperation.roles",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineAdminRolesOperation.h",
+      "line": 27,
+      "symbol": "SKYDefineAdminRolesOperation.defineAdminRolesCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineAdminRolesOperation.h",
+      "line": 30,
+      "symbol": "SKYDefineAdminRolesOperation.+operationWithRoles:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineCreationAccessOperation.h",
       "line": 24,
       "symbol": "SKYDefineCreationAccessOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineCreationAccessOperation.h",
+      "line": 26,
+      "symbol": "SKYDefineCreationAccessOperation.roles",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineCreationAccessOperation.h",
+      "line": 27,
+      "symbol": "SKYDefineCreationAccessOperation.recordType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineCreationAccessOperation.h",
+      "line": 28,
+      "symbol": "SKYDefineCreationAccessOperation.defineCreationAccessCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDefineCreationAccessOperation.h",
+      "line": 31,
+      "symbol": "SKYDefineCreationAccessOperation.+operationWithRecordType:roles:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
@@ -211,10 +883,73 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDeleteSubscriptionsOperation.h",
+      "line": 24,
+      "symbol": "SKYDeleteSubscriptionsOperation.-initWithDeviceID:subscriptionIDsToDelete:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDeleteSubscriptionsOperation.h",
+      "line": 27,
+      "symbol": "SKYDeleteSubscriptionsOperation.+operationWithDeviceID:subscriptionIDsToDelete:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDeleteSubscriptionsOperation.h",
+      "line": 30,
+      "symbol": "SKYDeleteSubscriptionsOperation.deviceID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDeleteSubscriptionsOperation.h",
+      "line": 31,
+      "symbol": "SKYDeleteSubscriptionsOperation.subscriptionIDsToDelete",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDeleteSubscriptionsOperation.h",
+      "line": 33,
+      "symbol": "SKYDeleteSubscriptionsOperation.deleteSubscriptionsCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDownloadAssetOperation.h",
       "line": 24,
       "symbol": "SKYDownloadAssetOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDownloadAssetOperation.h",
+      "line": 26,
+      "symbol": "SKYDownloadAssetOperation.-initWithRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDownloadAssetOperation.h",
+      "line": 27,
+      "symbol": "SKYDownloadAssetOperation.+operationWithAsset:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDownloadAssetOperation.h",
+      "line": 29,
+      "symbol": "SKYDownloadAssetOperation.downloadAssetProgressBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYDownloadAssetOperation.h",
+      "line": 30,
+      "symbol": "SKYDownloadAssetOperation.downloadAssetCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -268,9 +1003,380 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
-      "line": 57,
+      "line": 27,
       "symbol": "SKYErrorCode",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 27,
+      "symbol": "SKYErrorCode.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 28,
+      "symbol": ".SKYErrorUnknownError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 28,
+      "symbol": "SKYErrorCode..SKYErrorUnknownError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 29,
+      "symbol": ".SKYErrorPartialFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 29,
+      "symbol": "SKYErrorCode..SKYErrorPartialFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 31,
+      "symbol": ".SKYErrorNetworkUnavailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 31,
+      "symbol": "SKYErrorCode..SKYErrorNetworkUnavailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 32,
+      "symbol": ".SKYErrorNetworkFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 32,
+      "symbol": "SKYErrorCode..SKYErrorNetworkFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 33,
+      "symbol": ".SKYErrorServiceUnavailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 33,
+      "symbol": "SKYErrorCode..SKYErrorServiceUnavailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 34,
+      "symbol": ".SKYErrorBadResponse",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 34,
+      "symbol": "SKYErrorCode..SKYErrorBadResponse",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 35,
+      "symbol": ".SKYErrorInvalidData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 35,
+      "symbol": "SKYErrorCode..SKYErrorInvalidData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 36,
+      "symbol": ".SKYErrorRequestPayloadTooLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 36,
+      "symbol": "SKYErrorCode..SKYErrorRequestPayloadTooLarge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 38,
+      "symbol": ".SKYErrorNotAuthenticated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 38,
+      "symbol": "SKYErrorCode..SKYErrorNotAuthenticated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 39,
+      "symbol": ".SKYErrorPermissionDenied",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 39,
+      "symbol": "SKYErrorCode..SKYErrorPermissionDenied",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 40,
+      "symbol": ".SKYErrorAccessKeyNotAccepted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 40,
+      "symbol": "SKYErrorCode..SKYErrorAccessKeyNotAccepted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 41,
+      "symbol": ".SKYErrorAccessTokenNotAccepted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 41,
+      "symbol": "SKYErrorCode..SKYErrorAccessTokenNotAccepted",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 42,
+      "symbol": ".SKYErrorInvalidCredentials",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 42,
+      "symbol": "SKYErrorCode..SKYErrorInvalidCredentials",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 43,
+      "symbol": ".SKYErrorInvalidSignature",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 43,
+      "symbol": "SKYErrorCode..SKYErrorInvalidSignature",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 44,
+      "symbol": ".SKYErrorBadRequest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 44,
+      "symbol": "SKYErrorCode..SKYErrorBadRequest",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 45,
+      "symbol": ".SKYErrorInvalidArgument",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 45,
+      "symbol": "SKYErrorCode..SKYErrorInvalidArgument",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 46,
+      "symbol": ".SKYErrorDuplicated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 46,
+      "symbol": "SKYErrorCode..SKYErrorDuplicated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 47,
+      "symbol": ".SKYErrorResourceNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 47,
+      "symbol": "SKYErrorCode..SKYErrorResourceNotFound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 48,
+      "symbol": ".SKYErrorNotSupported",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 48,
+      "symbol": "SKYErrorCode..SKYErrorNotSupported",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 49,
+      "symbol": ".SKYErrorNotImplemented",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 49,
+      "symbol": "SKYErrorCode..SKYErrorNotImplemented",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 50,
+      "symbol": ".SKYErrorConstraintViolated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 50,
+      "symbol": "SKYErrorCode..SKYErrorConstraintViolated",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 51,
+      "symbol": ".SKYErrorIncompatibleSchema",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 51,
+      "symbol": "SKYErrorCode..SKYErrorIncompatibleSchema",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 52,
+      "symbol": ".SKYErrorAtomicOperationFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 52,
+      "symbol": "SKYErrorCode..SKYErrorAtomicOperationFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 53,
+      "symbol": ".SKYErrorPartialOperationFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 53,
+      "symbol": "SKYErrorCode..SKYErrorPartialOperationFailure",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 54,
+      "symbol": ".SKYErrorUndefinedOperation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 54,
+      "symbol": "SKYErrorCode..SKYErrorUndefinedOperation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 56,
+      "symbol": ".SKYErrorUnexpectedError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYError.h",
+      "line": 56,
+      "symbol": "SKYErrorCode..SKYErrorUnexpectedError",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -281,10 +1387,122 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 25,
+      "symbol": "SKYErrorCreator.errorDomain",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 26,
+      "symbol": "SKYErrorCreator.defaultUserInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 28,
+      "symbol": "SKYErrorCreator.-initWithDefaultErrorDomain:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 30,
+      "symbol": "SKYErrorCreator.-setDefaultUserInfoObject:forKey:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 32,
+      "symbol": "SKYErrorCreator.-errorWithCode:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 33,
+      "symbol": "SKYErrorCreator.-errorWithCode:message:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 34,
+      "symbol": "SKYErrorCreator.-errorWithCode:userInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 35,
+      "symbol": "SKYErrorCreator.-errorWithResponseDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYErrorCreator.h",
+      "line": 36,
+      "symbol": "SKYErrorCreator.-partialErrorWithPerItemDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
       "line": 22,
       "symbol": "SKYFetchSubscriptionsOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 24,
+      "symbol": "SKYFetchSubscriptionsOperation.-initWithDeviceID:subscriptionIDs:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 27,
+      "symbol": "SKYFetchSubscriptionsOperation.+fetchAllSubscriptionsOperationWithDeviceID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 28,
+      "symbol": "SKYFetchSubscriptionsOperation.+operationWithDeviceID:subscriptionIDs:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 31,
+      "symbol": "SKYFetchSubscriptionsOperation.deviceID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 33,
+      "symbol": "SKYFetchSubscriptionsOperation.subscriptionIDs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 35,
+      "symbol": "SKYFetchSubscriptionsOperation.perSubscriptionCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYFetchSubscriptionsOperation.h",
+      "line": 37,
+      "symbol": "SKYFetchSubscriptionsOperation.fetchSubscriptionsCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -296,9 +1514,149 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 24,
+      "symbol": "SKYGCMInnerNotificationInfo.title",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 25,
+      "symbol": "SKYGCMInnerNotificationInfo.body",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 26,
+      "symbol": "SKYGCMInnerNotificationInfo.icon",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 27,
+      "symbol": "SKYGCMInnerNotificationInfo.sound",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 28,
+      "symbol": "SKYGCMInnerNotificationInfo.tag",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 29,
+      "symbol": "SKYGCMInnerNotificationInfo.clickAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 30,
+      "symbol": "SKYGCMInnerNotificationInfo.bodyLocKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 31,
+      "symbol": "SKYGCMInnerNotificationInfo.bodyLocArgs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 32,
+      "symbol": "SKYGCMInnerNotificationInfo.titleLocKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 33,
+      "symbol": "SKYGCMInnerNotificationInfo.titleLocArgs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 35,
+      "symbol": "SKYGCMInnerNotificationInfo.-isEqualToNotificationInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
       "line": 39,
       "symbol": "SKYGCMNotificationInfo",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 41,
+      "symbol": "SKYGCMNotificationInfo.+notificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 43,
+      "symbol": "SKYGCMNotificationInfo.collapseKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 44,
+      "symbol": "SKYGCMNotificationInfo.priority",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 45,
+      "symbol": "SKYGCMNotificationInfo.contentAvailable",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 46,
+      "symbol": "SKYGCMNotificationInfo.delayWhileIdle",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 47,
+      "symbol": "SKYGCMNotificationInfo.timeToLive",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 48,
+      "symbol": "SKYGCMNotificationInfo.restrictedPackageName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 50,
+      "symbol": "SKYGCMNotificationInfo.notification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGCMNotificationInfo.h",
+      "line": 52,
+      "symbol": "SKYGCMNotificationInfo.-isEqualToNotificationInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -309,6 +1667,34 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGetAssetPostRequestOperation.h",
+      "line": 28,
+      "symbol": "SKYGetAssetPostRequestOperation.-initWithRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGetAssetPostRequestOperation.h",
+      "line": 29,
+      "symbol": "SKYGetAssetPostRequestOperation.+operationWithAsset:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGetAssetPostRequestOperation.h",
+      "line": 31,
+      "symbol": "SKYGetAssetPostRequestOperation.asset",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYGetAssetPostRequestOperation.h",
+      "line": 33,
+      "symbol": "SKYGetAssetPostRequestOperation.getAssetPostRequestCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
       "line": 24,
       "symbol": "SKYLocationSortDescriptor",
@@ -316,10 +1702,87 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
+      "line": 26,
+      "symbol": "SKYLocationSortDescriptor.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
+      "line": 27,
+      "symbol": "SKYLocationSortDescriptor.-initWithKey:relativeLocation:ascending:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
+      "line": 30,
+      "symbol": "SKYLocationSortDescriptor.-initWithCoder:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
+      "line": 31,
+      "symbol": "SKYLocationSortDescriptor.+locationSortDescriptorWithKey:relativeLocation:ascending:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLocationSortDescriptor.h",
+      "line": 35,
+      "symbol": "SKYLocationSortDescriptor.relativeLocation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
       "line": 24,
       "symbol": "SKYLoginUserOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 26,
+      "symbol": "SKYLoginUserOperation.username",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 27,
+      "symbol": "SKYLoginUserOperation.email",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 28,
+      "symbol": "SKYLoginUserOperation.password",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 29,
+      "symbol": "SKYLoginUserOperation.provider",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 30,
+      "symbol": "SKYLoginUserOperation.authenticationData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYLoginUserOperation.h",
+      "line": 32,
+      "symbol": "SKYLoginUserOperation.loginCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -331,9 +1794,58 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
-      "line": 26,
+      "line": 22,
       "symbol": "SKYRecordSavePolicy",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 22,
+      "symbol": "SKYRecordSavePolicy.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 23,
+      "symbol": ".SKYRecordSaveIfServerRecordUnchanged",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 23,
+      "symbol": "SKYRecordSavePolicy..SKYRecordSaveIfServerRecordUnchanged",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 24,
+      "symbol": ".SKYRecordSaveChangedKeys",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 24,
+      "symbol": "SKYRecordSavePolicy..SKYRecordSaveChangedKeys",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 25,
+      "symbol": ".SKYRecordSaveAllKeys",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifyRecordsOperation.h",
+      "line": 25,
+      "symbol": "SKYRecordSavePolicy..SKYRecordSaveAllKeys",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -341,6 +1853,48 @@
       "line": 23,
       "symbol": "SKYModifySubscriptionsOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 25,
+      "symbol": "SKYModifySubscriptionsOperation.-initWithDeviceID:subscriptionsToSave:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 28,
+      "symbol": "SKYModifySubscriptionsOperation.+operationWithDeviceID:subscriptionsToSave:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 31,
+      "symbol": "SKYModifySubscriptionsOperation.deviceID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 32,
+      "symbol": "SKYModifySubscriptionsOperation.subscriptionsToSave",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 34,
+      "symbol": "SKYModifySubscriptionsOperation.perSubscriptionCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYModifySubscriptionsOperation.h",
+      "line": 36,
+      "symbol": "SKYModifySubscriptionsOperation.modifySubscriptionsCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -352,9 +1906,58 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
-      "line": 28,
+      "line": 24,
       "symbol": "SKYNotificationType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 24,
+      "symbol": "SKYNotificationType.SKYNotificationType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 25,
+      "symbol": "SKYNotificationType.SKYNotificationType.SKYNotificationTypeQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 25,
+      "symbol": "SKYNotificationType.SKYNotificationTypeQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 26,
+      "symbol": "SKYNotificationType.SKYNotificationType.SKYNotificationTypeReadNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 26,
+      "symbol": "SKYNotificationType.SKYNotificationTypeReadNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 27,
+      "symbol": "SKYNotificationType.SKYNotificationType.SKYNotificationTypePushNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 27,
+      "symbol": "SKYNotificationType.SKYNotificationTypePushNotification",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -362,6 +1965,97 @@
       "line": 30,
       "symbol": "SKYNotification",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 32,
+      "symbol": "SKYNotification.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 34,
+      "symbol": "SKYNotification.notificationID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 35,
+      "symbol": "SKYNotification.notificationType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 36,
+      "symbol": "SKYNotification.containerIdentifier",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 37,
+      "symbol": "SKYNotification.subscriptionID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 39,
+      "symbol": "SKYNotification.isPruned",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 41,
+      "symbol": "SKYNotification.alertBody",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 42,
+      "symbol": "SKYNotification.alertLocalizationKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 43,
+      "symbol": "SKYNotification.alertLocalizationArgs",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 44,
+      "symbol": "SKYNotification.alertActionLocalizationKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 45,
+      "symbol": "SKYNotification.alertLaunchImage",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 46,
+      "symbol": "SKYNotification.soundName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotification.h",
+      "line": 47,
+      "symbol": "SKYNotification.badge",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -379,10 +2073,59 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfo.h",
+      "line": 27,
+      "symbol": "SKYNotificationInfo.+notificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfo.h",
+      "line": 29,
+      "symbol": "SKYNotificationInfo.apsNotificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfo.h",
+      "line": 30,
+      "symbol": "SKYNotificationInfo.gcmNotificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfo.h",
+      "line": 32,
+      "symbol": "SKYNotificationInfo.desiredKeys",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfo.h",
+      "line": 34,
+      "symbol": "SKYNotificationInfo.-isEqualToNotificationInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfoDeserializer.h",
       "line": 24,
       "symbol": "SKYNotificationInfoDeserializer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfoDeserializer.h",
+      "line": 26,
+      "symbol": "SKYNotificationInfoDeserializer.+deserializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfoDeserializer.h",
+      "line": 28,
+      "symbol": "SKYNotificationInfoDeserializer.-notificationInfoWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -393,10 +2136,66 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfoSerializer.h",
+      "line": 26,
+      "symbol": "SKYNotificationInfoSerializer.+serializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYNotificationInfoSerializer.h",
+      "line": 28,
+      "symbol": "SKYNotificationInfoSerializer.-dictionaryWithNotificationInfo:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
       "line": 26,
       "symbol": "SKYOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 28,
+      "symbol": "SKYOperation.container",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 29,
+      "symbol": "SKYOperation.request",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 36,
+      "symbol": "SKYOperation.-initWithRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 110,
+      "symbol": "SKYOperation.-handleRequestCompletionWithData:response:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 114,
+      "symbol": "SKYOperation.-operationWillStart",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYOperation.h",
+      "line": 116,
+      "symbol": "SKYOperation.+responseClass",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
@@ -407,6 +2206,62 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 28,
+      "symbol": "SKYPostAssetOperation.-initWithRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 30,
+      "symbol": "SKYPostAssetOperation.+operationWithAsset:url:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 32,
+      "symbol": "SKYPostAssetOperation.+operationWithAsset:url:extraFields:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 36,
+      "symbol": "SKYPostAssetOperation.asset",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 37,
+      "symbol": "SKYPostAssetOperation.url",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 38,
+      "symbol": "SKYPostAssetOperation.extraFields",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 40,
+      "symbol": "SKYPostAssetOperation.postAssetProgressBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPostAssetOperation.h",
+      "line": 42,
+      "symbol": "SKYPostAssetOperation.postAssetCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPubsub.h",
       "line": 22,
       "symbol": "SKYPubsub",
@@ -414,10 +2269,66 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPubsub.h",
+      "line": 24,
+      "symbol": "SKYPubsub.endPointAddress",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYPubsub.h",
+      "line": 25,
+      "symbol": "SKYPubsub.APIKey",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
       "line": 22,
       "symbol": "SKYQuery",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 24,
+      "symbol": "SKYQuery.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 25,
+      "symbol": "SKYQuery.-initWithRecordType:predicate:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 28,
+      "symbol": "SKYQuery.+queryWithRecordType:predicate:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 30,
+      "symbol": "SKYQuery.recordType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 31,
+      "symbol": "SKYQuery.predicate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuery.h",
+      "line": 32,
+      "symbol": "SKYQuery.sortDescriptors",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -435,6 +2346,41 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryDeserializer.h",
+      "line": 25,
+      "symbol": "SKYQueryDeserializer.+deserializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryDeserializer.h",
+      "line": 27,
+      "symbol": "SKYQueryDeserializer.-queryWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryDeserializer.h",
+      "line": 28,
+      "symbol": "SKYQueryDeserializer.-expressionWithObject:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryDeserializer.h",
+      "line": 29,
+      "symbol": "SKYQueryDeserializer.-predicateWithArray:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryDeserializer.h",
+      "line": 30,
+      "symbol": "SKYQueryDeserializer.-sortDescriptorsWithArray:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation+QueryUser.h",
       "line": 24,
       "symbol": "SKYQueryOperation(QueryUser)",
@@ -449,10 +2395,101 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 27,
+      "symbol": "SKYQueryOperation.-initWithQuery:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 28,
+      "symbol": "SKYQueryOperation.-initWithCursor:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 30,
+      "symbol": "SKYQueryOperation.+operationWithQuery:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 31,
+      "symbol": "SKYQueryOperation.+operationWithCursor:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 33,
+      "symbol": "SKYQueryOperation.query",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 34,
+      "symbol": "SKYQueryOperation.results",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 41,
+      "symbol": "SKYQueryOperation.perRecordCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQueryOperation.h",
+      "line": 42,
+      "symbol": "SKYQueryOperation.queryRecordsCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
       "line": 23,
       "symbol": "SKYQuerySerializer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
+      "line": 25,
+      "symbol": "SKYQuerySerializer.+serializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
+      "line": 26,
+      "symbol": "SKYQuerySerializer.-serializeWithQuery:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
+      "line": 27,
+      "symbol": "SKYQuerySerializer.-serializeWithExpression:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
+      "line": 28,
+      "symbol": "SKYQuerySerializer.-serializeWithPredicate:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYQuerySerializer.h",
+      "line": 29,
+      "symbol": "SKYQuerySerializer.-serializeWithSortDescriptors:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -470,6 +2507,181 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 29,
+      "symbol": "SKYRecord.+recordWithRecordType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 30,
+      "symbol": "SKYRecord.+recordWithRecordType:name:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 31,
+      "symbol": "SKYRecord.+recordWithRecordType:name:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 34,
+      "symbol": "SKYRecord.+recordWithRecordID:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 44,
+      "symbol": "SKYRecord.-initWithRecordType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 45,
+      "symbol": "SKYRecord.-initWithRecordType:name:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 46,
+      "symbol": "SKYRecord.-initWithRecordType:recordID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 48,
+      "symbol": "SKYRecord.-initWithRecordType:recordID:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 51,
+      "symbol": "SKYRecord.-initWithRecordType:name:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 54,
+      "symbol": "SKYRecord.-initWithRecordID:data:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 57,
+      "symbol": "SKYRecord.-objectForKey:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 58,
+      "symbol": "SKYRecord.-objectForKeyedSubscript:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 60,
+      "symbol": "SKYRecord.-setObject:forKey:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 61,
+      "symbol": "SKYRecord.-setObject:forKeyedSubscript:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 63,
+      "symbol": "SKYRecord.-referencedRecordForKey:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 65,
+      "symbol": "SKYRecord.recordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 66,
+      "symbol": "SKYRecord.recordType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 67,
+      "symbol": "SKYRecord.ownerUserRecordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 68,
+      "symbol": "SKYRecord.creationDate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 69,
+      "symbol": "SKYRecord.creatorUserRecordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 70,
+      "symbol": "SKYRecord.modificationDate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 71,
+      "symbol": "SKYRecord.lastModifiedUserRecordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 72,
+      "symbol": "SKYRecord.recordChangeTag",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 73,
+      "symbol": "SKYRecord.accessControl",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecord.h",
+      "line": 74,
+      "symbol": "SKYRecord.dictionary",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
       "line": 25,
       "symbol": "",
@@ -478,9 +2690,16 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
-      "line": 50,
+      "line": 25,
       "symbol": "SKYRecordResolveMethod",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 25,
+      "symbol": "SKYRecordResolveMethod.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -492,9 +2711,44 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
-      "line": 55,
+      "line": 52,
       "symbol": "SKYRecordChangeAction",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 52,
+      "symbol": "SKYRecordChangeAction.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 53,
+      "symbol": ".SKYRecordChangeSave",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 53,
+      "symbol": "SKYRecordChangeAction..SKYRecordChangeSave",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 54,
+      "symbol": ".SKYRecordChangeDelete",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 54,
+      "symbol": "SKYRecordChangeAction..SKYRecordChangeDelete",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -505,6 +2759,62 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 59,
+      "symbol": "SKYRecordChange.recordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 60,
+      "symbol": "SKYRecordChange.attributesToSave",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 61,
+      "symbol": "SKYRecordChange.action",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 62,
+      "symbol": "SKYRecordChange.finished",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 63,
+      "symbol": "SKYRecordChange.resolveMethod",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 64,
+      "symbol": "SKYRecordChange.error",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 66,
+      "symbol": "SKYRecordChange.-initWithRecord:action:resolveMethod:attributesToSave:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordChange.h",
+      "line": 71,
+      "symbol": "SKYRecordChange.-initWithRecordID:action:resolveMethod:attributesToSave:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordDeserializer.h",
       "line": 23,
       "symbol": "SKYRecordDeserializer",
@@ -512,10 +2822,108 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordDeserializer.h",
+      "line": 25,
+      "symbol": "SKYRecordDeserializer.+deserializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordDeserializer.h",
+      "line": 27,
+      "symbol": "SKYRecordDeserializer.-recordWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordDeserializer.h",
+      "line": 28,
+      "symbol": "SKYRecordDeserializer.-recordWithJSONData:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
       "line": 22,
       "symbol": "SKYRecordID",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 28,
+      "symbol": "SKYRecordID.-initWithRecordName:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 30,
+      "symbol": "SKYRecordID.-initWithRecordType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 31,
+      "symbol": "SKYRecordID.-initWithCanonicalString:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 32,
+      "symbol": "SKYRecordID.-initWithRecordType:name:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 35,
+      "symbol": "SKYRecordID.+recordIDWithRecordType:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 36,
+      "symbol": "SKYRecordID.+recordIDWithCanonicalString:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 37,
+      "symbol": "SKYRecordID.+recordIDWithRecordType:name:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 39,
+      "symbol": "SKYRecordID.-isEqualToRecordID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 41,
+      "symbol": "SKYRecordID.recordType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 42,
+      "symbol": "SKYRecordID.recordName",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordID.h",
+      "line": 43,
+      "symbol": "SKYRecordID.canonicalString",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -589,6 +2997,27 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordSerializer.h",
+      "line": 32,
+      "symbol": "SKYRecordSerializer.+serializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordSerializer.h",
+      "line": 34,
+      "symbol": "SKYRecordSerializer.-dictionaryWithRecord:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordSerializer.h",
+      "line": 35,
+      "symbol": "SKYRecordSerializer.-JSONDataWithRecord:error:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordStorage.h",
       "line": 27,
       "symbol": "SKYRecordStorageDidUpdateNotification",
@@ -653,9 +3082,16 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordStorage.h",
-      "line": 58,
+      "line": 38,
       "symbol": "SKYRecordState",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRecordStorage.h",
+      "line": 38,
+      "symbol": "SKYRecordState.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
       "warning": "undocumented"
     },
     {
@@ -814,9 +3250,44 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
-      "line": 28,
+      "line": 25,
       "symbol": "SKYReferenceAction",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 25,
+      "symbol": "SKYReferenceAction.SKYReferenceAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 26,
+      "symbol": "SKYReferenceAction.SKYReferenceAction.SKYReferenceActionNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 26,
+      "symbol": "SKYReferenceAction.SKYReferenceActionNone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 27,
+      "symbol": "SKYReferenceAction.SKYReferenceAction.SKYReferenceActionDeleteSelf",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 27,
+      "symbol": "SKYReferenceAction.SKYReferenceActionDeleteSelf",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -827,10 +3298,157 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 32,
+      "symbol": "SKYReference.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 33,
+      "symbol": "SKYReference.-initWithRecord:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 34,
+      "symbol": "SKYReference.-initWithRecord:action:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 35,
+      "symbol": "SKYReference.-initWithRecordID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 36,
+      "symbol": "SKYReference.-initWithRecordID:action:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 38,
+      "symbol": "SKYReference.+referenceWithRecord:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 39,
+      "symbol": "SKYReference.+referenceWithRecord:action:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 40,
+      "symbol": "SKYReference.+referenceWithRecordID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 41,
+      "symbol": "SKYReference.+referenceWithRecordID:action:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 43,
+      "symbol": "SKYReference.-isEqualToReference:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 45,
+      "symbol": "SKYReference.referenceAction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 46,
+      "symbol": "SKYReference.recordID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYReference.h",
+      "line": 48,
+      "symbol": "SKYReference.record",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
       "line": 23,
       "symbol": "SKYRegisterDeviceOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 25,
+      "symbol": "SKYRegisterDeviceOperation.-initWithDeviceToken:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 27,
+      "symbol": "SKYRegisterDeviceOperation.-initWithDeviceToken:topic:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 37,
+      "symbol": "SKYRegisterDeviceOperation.+operationWithDeviceToken:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 39,
+      "symbol": "SKYRegisterDeviceOperation.+operationWithDeviceToken:topic:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 41,
+      "symbol": "SKYRegisterDeviceOperation.deviceToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 42,
+      "symbol": "SKYRegisterDeviceOperation.topic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 43,
+      "symbol": "SKYRegisterDeviceOperation.deviceID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRegisterDeviceOperation.h",
+      "line": 44,
+      "symbol": "SKYRegisterDeviceOperation.registerCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -842,9 +3460,58 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
-      "line": 26,
+      "line": 22,
       "symbol": "SKYRelationDirection",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 22,
+      "symbol": "SKYRelationDirection.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 23,
+      "symbol": ".SKYRelationDirectionOutward",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 23,
+      "symbol": "SKYRelationDirection..SKYRelationDirectionOutward",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 24,
+      "symbol": ".SKYRelationDirectionInward",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 24,
+      "symbol": "SKYRelationDirection..SKYRelationDirectionInward",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 25,
+      "symbol": ".SKYRelationDirectionMutual",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 25,
+      "symbol": "SKYRelationDirection..SKYRelationDirectionMutual",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -852,6 +3519,62 @@
       "line": 28,
       "symbol": "SKYRelation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 30,
+      "symbol": "SKYRelation.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 32,
+      "symbol": "SKYRelation.+relationWithName:direction:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 34,
+      "symbol": "SKYRelation.+friendRelation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 35,
+      "symbol": "SKYRelation.+followingRelation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 36,
+      "symbol": "SKYRelation.+followedRelation",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 38,
+      "symbol": "SKYRelation.-isEqualToRelation:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 40,
+      "symbol": "SKYRelation.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRelation.h",
+      "line": 41,
+      "symbol": "SKYRelation.direction",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
       "warning": "undocumented"
     },
     {
@@ -869,10 +3592,73 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 25,
+      "symbol": "SKYRequest.action",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 26,
+      "symbol": "SKYRequest.payload",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 27,
+      "symbol": "SKYRequest.accessToken",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 33,
+      "symbol": "SKYRequest.baseURL",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 34,
+      "symbol": "SKYRequest.requestPath",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRequest.h",
+      "line": 36,
+      "symbol": "SKYRequest.-initWithAction:payload:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRole.h",
       "line": 22,
       "symbol": "SKYRole",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRole.h",
+      "line": 24,
+      "symbol": "SKYRole.name",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRole.h",
+      "line": 26,
+      "symbol": "SKYRole.+roleWithName:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYRole.h",
+      "line": 28,
+      "symbol": "SKYRole.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -884,9 +3670,44 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
-      "line": 28,
+      "line": 25,
       "symbol": "SKYPushTarget",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 25,
+      "symbol": "SKYPushTarget.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 26,
+      "symbol": ".SKYPushTargetIsDevice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 26,
+      "symbol": "SKYPushTarget..SKYPushTargetIsDevice",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 27,
+      "symbol": ".SKYPushTargetIsUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 27,
+      "symbol": "SKYPushTarget..SKYPushTargetIsUser",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -897,10 +3718,115 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 32,
+      "symbol": "SKYSendPushNotificationOperation.-initWithNotificationInfo:pushTarget:IDsToSend:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 36,
+      "symbol": "SKYSendPushNotificationOperation.-initWithNotificationInfo:pushTarget:IDsToSend:topic:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 41,
+      "symbol": "SKYSendPushNotificationOperation.+operationWithNotificationInfo:userIDsToSend:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 44,
+      "symbol": "SKYSendPushNotificationOperation.+operationWithNotificationInfo:userIDsToSend:topic:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 48,
+      "symbol": "SKYSendPushNotificationOperation.+operationWithNotificationInfo:deviceIDsToSend:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 51,
+      "symbol": "SKYSendPushNotificationOperation.+operationWithNotificationInfo:deviceIDsToSend:topic:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 55,
+      "symbol": "SKYSendPushNotificationOperation.notificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 56,
+      "symbol": "SKYSendPushNotificationOperation.pushTarget",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 57,
+      "symbol": "SKYSendPushNotificationOperation.IDsToSend",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 58,
+      "symbol": "SKYSendPushNotificationOperation.topic",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 59,
+      "symbol": "SKYSendPushNotificationOperation.perSendCompletionHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSendPushNotificationOperation.h",
+      "line": 60,
+      "symbol": "SKYSendPushNotificationOperation.sendCompletionHandler",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSetUserDefaultRoleOperation.h",
       "line": 24,
       "symbol": "SKYSetUserDefaultRoleOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSetUserDefaultRoleOperation.h",
+      "line": 26,
+      "symbol": "SKYSetUserDefaultRoleOperation.roles",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSetUserDefaultRoleOperation.h",
+      "line": 27,
+      "symbol": "SKYSetUserDefaultRoleOperation.setUserDefaultRoleCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSetUserDefaultRoleOperation.h",
+      "line": 30,
+      "symbol": "SKYSetUserDefaultRoleOperation.+operationWithRoles:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
@@ -912,9 +3838,44 @@
     },
     {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
-      "line": 28,
+      "line": 25,
       "symbol": "SKYSubscriptionType",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.typedef",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 25,
+      "symbol": "SKYSubscriptionType.",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 26,
+      "symbol": ".SKYSubscriptionTypeQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 26,
+      "symbol": "SKYSubscriptionType..SKYSubscriptionTypeQuery",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 27,
+      "symbol": ".SKYSubscriptionTypeRecordZone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 27,
+      "symbol": "SKYSubscriptionType..SKYSubscriptionTypeRecordZone",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.enumcase",
       "warning": "undocumented"
     },
     {
@@ -925,10 +3886,94 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 32,
+      "symbol": "SKYSubscription.-initWithQuery:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 33,
+      "symbol": "SKYSubscription.-initWithQuery:subscriptionID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 35,
+      "symbol": "SKYSubscription.+subscriptionWithQuery:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 36,
+      "symbol": "SKYSubscription.+subscriptionWithQuery:subscriptionID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 38,
+      "symbol": "SKYSubscription.subscriptionType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 40,
+      "symbol": "SKYSubscription.query",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 43,
+      "symbol": "SKYSubscription.recordType",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 44,
+      "symbol": "SKYSubscription.predicate",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 46,
+      "symbol": "SKYSubscription.notificationInfo",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscription.h",
+      "line": 48,
+      "symbol": "SKYSubscription.subscriptionID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscriptionDeserializer.h",
       "line": 23,
       "symbol": "SKYSubscriptionDeserializer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscriptionDeserializer.h",
+      "line": 25,
+      "symbol": "SKYSubscriptionDeserializer.+deserializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscriptionDeserializer.h",
+      "line": 27,
+      "symbol": "SKYSubscriptionDeserializer.-subscriptionWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     },
     {
@@ -967,6 +4012,20 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscriptionSerializer.h",
+      "line": 26,
+      "symbol": "SKYSubscriptionSerializer.+serializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYSubscriptionSerializer.h",
+      "line": 28,
+      "symbol": "SKYSubscriptionSerializer.-dictionaryWithSubscription:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUnknownValue.h",
       "line": 30,
       "symbol": "SKYUnknownValue.-init",
@@ -1002,10 +4061,59 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUnregisterDeviceOperation.h",
+      "line": 26,
+      "symbol": "SKYUnregisterDeviceOperation.-initWithDeviceID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUnregisterDeviceOperation.h",
+      "line": 28,
+      "symbol": "SKYUnregisterDeviceOperation.+operationWithDeviceID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUnregisterDeviceOperation.h",
+      "line": 30,
+      "symbol": "SKYUnregisterDeviceOperation.deviceID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUnregisterDeviceOperation.h",
+      "line": 31,
+      "symbol": "SKYUnregisterDeviceOperation.unregisterCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUpdateUserOperation.h",
       "line": 24,
       "symbol": "SKYUpdateUserOperation",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUpdateUserOperation.h",
+      "line": 26,
+      "symbol": "SKYUpdateUserOperation.user",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUpdateUserOperation.h",
+      "line": 27,
+      "symbol": "SKYUpdateUserOperation.updateUserCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUpdateUserOperation.h",
+      "line": 29,
+      "symbol": "SKYUpdateUserOperation.+operationWithUser:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
       "warning": "undocumented"
     },
     {
@@ -1016,6 +4124,41 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUploadAssetOperation.h",
+      "line": 27,
+      "symbol": "SKYUploadAssetOperation.-initWithRequest:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUploadAssetOperation.h",
+      "line": 28,
+      "symbol": "SKYUploadAssetOperation.+operationWithAsset:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUploadAssetOperation.h",
+      "line": 30,
+      "symbol": "SKYUploadAssetOperation.asset",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUploadAssetOperation.h",
+      "line": 32,
+      "symbol": "SKYUploadAssetOperation.uploadAssetProgressBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUploadAssetOperation.h",
+      "line": 33,
+      "symbol": "SKYUploadAssetOperation.uploadAssetCompletionBlock",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
       "line": 26,
       "symbol": "SKYUser",
@@ -1023,10 +4166,129 @@
       "warning": "undocumented"
     },
     {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 28,
+      "symbol": "SKYUser.-init",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 29,
+      "symbol": "SKYUser.-initWithUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 31,
+      "symbol": "SKYUser.-addRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 32,
+      "symbol": "SKYUser.-removeRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 33,
+      "symbol": "SKYUser.-hasRole:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 35,
+      "symbol": "SKYUser.+userWithUserID:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 36,
+      "symbol": "SKYUser.+userWithResponse:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 38,
+      "symbol": "SKYUser.username",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 39,
+      "symbol": "SKYUser.email",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 40,
+      "symbol": "SKYUser.lastLoginAt",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 41,
+      "symbol": "SKYUser.lastSeenAt",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 42,
+      "symbol": "SKYUser.authData",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 43,
+      "symbol": "SKYUser.roles",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 44,
+      "symbol": "SKYUser.isNew",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUser.h",
+      "line": 46,
+      "symbol": "SKYUser.userID",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.property",
+      "warning": "undocumented"
+    },
+    {
       "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUserDeserializer.h",
       "line": 22,
       "symbol": "SKYUserDeserializer",
       "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUserDeserializer.h",
+      "line": 24,
+      "symbol": "SKYUserDeserializer.+deserializer",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/cheungpat/projects/skygeario/skygear-SDK-iOS/Pod/Classes/SKYUserDeserializer.h",
+      "line": 26,
+      "symbol": "SKYUserDeserializer.-userWithDictionary:",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.method.instance",
       "warning": "undocumented"
     }
   ],
