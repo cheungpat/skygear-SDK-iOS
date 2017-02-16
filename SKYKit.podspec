@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
 
     core.source_files = 'Pod/Classes/**/*'
 
-    # core.public_header_files = 'Pod/Classes/**/*.h'
+    core.public_header_files = 'Pod/Classes/**/*.h'
+    core.private_header_files = 'Pod/Classes/**/*_Private.h'
     # core.frameworks = 'UIKit', 'MapKit'
     core.dependency 'FMDB', '~> 2.5'
     core.dependency 'SocketRocket', '~> 0.4'
