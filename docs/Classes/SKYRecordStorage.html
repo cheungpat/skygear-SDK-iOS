@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SKYRecordStorage Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/SKYRecordStorage" class="dashAnchor"></a>
+
+    <a title="SKYRecordStorage Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SKYKit Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/SkygearIO/skygear-SDK-iOS/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SKYKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      SKYRecordStorage Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYDeleteRecordsOperation.html">SKYDeleteRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYFetchRecordsOperation.html">SKYFetchRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYGetCurrentUserOperation.html">SKYGetCurrentUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLambdaOperation.html">SKYLambdaOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLogoutUserOperation.html">SKYLogoutUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYModifyRecordsOperation.html">SKYModifyRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorageCoordinator.html">SKYRecordStorageCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRelationPredicate.html">SKYRelationPredicate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResponse.html">SKYResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResultArrayResponse.html">SKYResultArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSequence.html">SKYSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSignupUserOperation.html">SKYSignupUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)SKYUnknownValue">SKYUnknownValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYUserDiscoverPredicate.html">SKYUserDiscoverPredicate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidChangeCurrentUserNotification">SKYContainerDidChangeCurrentUserNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidRegisterDeviceNotification">SKYContainerDidRegisterDeviceNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorLocalizedDescriptionWithCode">SKYErrorLocalizedDescriptionWithCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorNameWithCode">SKYErrorNameWithCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SKYRecordStorage</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SKYRecordStorage</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p><SKYRecordStorage> provides a local storage for records that is synchronized
+with a subset of records on remote server. Changes made remotely are
+reflected on the local storage and vice versa.</p>
+
+<p>This class is useful for applications in which records are available
+offline, and that user may modify data when device is offline to
+have changes uploaded to remote server when device becomes online again.</p>
+
+<p>User should not instantiate an instance of this class directly. An
+instance of <SKYRecordStorage> should be obtained from
+<SKYRecordStorageCoordinator>.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)enabled"></a>
+                    <a name="//apple_ref/objc/Property/enabled" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)enabled">enabled</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether the <SKYRecordStorage> should synchronizes changes
+from remote to local and vice versa.</p>
+
+<p>When this is YES, any pending changes will be performed at an appropriate
+time. When this is set to NO, any changes will be kept in pending state
+until this is set to YES again.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">enabled</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">enabled</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L83">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)updating"></a>
+                    <a name="//apple_ref/objc/Property/updating" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)updating">updating</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether the <SKYRecordStorage> is currently updating the backing store.</p>
+
+<p>When the backing store is being updated, calling -beginUpdating is not allowed.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">getter</span><span class="o">=</span><span class="n">isUpdating</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">updating</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isUpdating</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L90">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)backingStore"></a>
+                    <a name="//apple_ref/objc/Property/backingStore" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)backingStore">backingStore</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the backing store object used to initialize the the storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">id</span><span class="o">&lt;</span><span class="n">SKYRecordStorageBackingStore</span><span class="o">&gt;</span>
+    <span class="n">backingStore</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">backingStore</span><span class="p">:</span> <span class="kt">SKYRecordStorageBackingStore</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L95">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)synchronizer"></a>
+                    <a name="//apple_ref/objc/Property/synchronizer" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)synchronizer">synchronizer</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns a synchronizer to the record storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">strong</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">SKYRecordSynchronizer</span> <span class="o">*</span><span class="n">synchronizer</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">synchronizer</span><span class="p">:</span> <span class="kt">SKYRecordSynchronizer</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L100">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)hasUpdateAvailable"></a>
+                    <a name="//apple_ref/objc/Property/hasUpdateAvailable" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)hasUpdateAvailable">hasUpdateAvailable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether update from remote server is available.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">hasUpdateAvailable</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">hasUpdateAvailable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L105">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Changing%20all%20records"></a>
+                <a name="//apple_ref/objc/Section/Changing all records" class="dashAnchor"></a>
+                <a href="#/Changing%20all%20records">
+                  <h3 class="section-name">Changing all records</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)performUpdateWithCompletionHandler:"></a>
+                    <a name="//apple_ref/objc/Method/-performUpdateWithCompletionHandler:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)performUpdateWithCompletionHandler:">-performUpdateWithCompletionHandler:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Manually trigger an update to be performed on the receiver.</p>
+
+<p>Update are performed asynchronously. If there are pending changes, the record storage
+cannot be updated. This method returns <NO> when the receiver cannot perform update.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">performUpdateWithCompletionHandler</span><span class="p">:</span>
+    <span class="p">(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">BOOL</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="p">))</span><span class="nv">completionHandler</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">performUpdate</span><span class="p">(</span><span class="nv">completionHandler</span><span class="p">:</span> <span class="p">((</span><span class="kt">Bool</span><span class="p">,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L117-L118">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Saving%20and%20removing"></a>
+                <a name="//apple_ref/objc/Section/Saving and removing" class="dashAnchor"></a>
+                <a href="#/Saving%20and%20removing">
+                  <h3 class="section-name">Saving and removing</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)saveRecord:"></a>
+                    <a name="//apple_ref/objc/Method/-saveRecord:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)saveRecord:">-saveRecord:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Save specified record.</p>
+
+<p>If the record is also modified on the remote, you can specify
+an automatic conflict resolution method. If not specified, the
+default method is SKYRecordStorageResolveByReplacing.</p>
+
+<p>The completion handler is called when the change is synchronized to remote.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">saveRecord</span><span class="p">:(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">)</span><span class="nv">record</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">save</span><span class="p">(</span><span class="n">_</span> <span class="nv">record</span><span class="p">:</span> <span class="kt">SKYRecord</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L131">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)deleteRecord:"></a>
+                    <a name="//apple_ref/objc/Method/-deleteRecord:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)deleteRecord:">-deleteRecord:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Remove specified record.</p>
+
+<p>If the record is also modified on the remote, you can specify
+an automatic conflict resolution method. If not specified, the
+default method is SKYRecordStorageResolveByReplacing.</p>
+
+<p>The completion handler is called when the change is synchronized to remote.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">deleteRecord</span><span class="p">:(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">)</span><span class="nv">record</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">delete</span><span class="p">(</span><span class="n">_</span> <span class="nv">record</span><span class="p">:</span> <span class="kt">SKYRecord</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L146">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Fetching%20and%20querying%20multiple%20records"></a>
+                <a name="//apple_ref/objc/Section/Fetching and querying multiple records" class="dashAnchor"></a>
+                <a href="#/Fetching%20and%20querying%20multiple%20records">
+                  <h3 class="section-name">Fetching and querying multiple records</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)recordWithRecordID:"></a>
+                    <a name="//apple_ref/objc/Method/-recordWithRecordID:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)recordWithRecordID:">-recordWithRecordID:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a record from record storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">)</span><span class="nf">recordWithRecordID</span><span class="p">:(</span><span class="n">SKYRecordID</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordID</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">record</span><span class="p">(</span><span class="n">with</span> <span class="nv">recordID</span><span class="p">:</span> <span class="kt">SKYRecordID</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">SKYRecord</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L157">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)recordsWithType:"></a>
+                    <a name="//apple_ref/objc/Method/-recordsWithType:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)recordsWithType:">-recordsWithType:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an array of <SKYRecord> with the specified type.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">recordsWithType</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordType</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">records</span><span class="p">(</span><span class="n">withType</span> <span class="nv">recordType</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L162">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)recordsWithType:predicate:sortDescriptors:"></a>
+                    <a name="//apple_ref/objc/Method/-recordsWithType:predicate:sortDescriptors:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)recordsWithType:predicate:sortDescriptors:">-recordsWithType:predicate:sortDescriptors:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an array of <SKYRecord> with the specified type, filtered
+using the specified predicate.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nf">recordsWithType</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordType</span>
+                   <span class="nf">predicate</span><span class="p">:(</span><span class="n">NSPredicate</span> <span class="o">*</span><span class="p">)</span><span class="nv">predicate</span>
+             <span class="nf">sortDescriptors</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">sortDescriptors</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">records</span><span class="p">(</span><span class="n">withType</span> <span class="nv">recordType</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="o">!</span><span class="p">,</span> <span class="nv">sortDescriptors</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L168-L170">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)enumerateRecordsWithType:predicate:sortDescriptors:usingBlock:"></a>
+                    <a name="//apple_ref/objc/Method/-enumerateRecordsWithType:predicate:sortDescriptors:usingBlock:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)enumerateRecordsWithType:predicate:sortDescriptors:usingBlock:">-enumerateRecordsWithType:predicate:sortDescriptors:usingBlock:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Enumerate SKYRecords in the local storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">enumerateRecordsWithType</span><span class="p">:(</span><span class="n">NSString</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordType</span>
+                       <span class="nf">predicate</span><span class="p">:(</span><span class="n">NSPredicate</span> <span class="o">*</span><span class="p">)</span><span class="nv">predicate</span>
+                 <span class="nf">sortDescriptors</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">sortDescriptors</span>
+                      <span class="nf">usingBlock</span><span class="p">:(</span><span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">,</span> <span class="n">BOOL</span> <span class="o">*</span><span class="p">))</span><span class="nv">block</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">enumerateRecords</span><span class="p">(</span><span class="n">withType</span> <span class="nv">recordType</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span><span class="p">,</span> <span class="nv">predicate</span><span class="p">:</span> <span class="kt">NSPredicate</span><span class="o">!</span><span class="p">,</span> <span class="nv">sortDescriptors</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">,</span> <span class="n">using</span> <span class="nv">block</span><span class="p">:</span> <span class="p">((</span><span class="kt">SKYRecord</span><span class="p">?,</span> <span class="kt">UnsafeMutablePointer</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L175-L178">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Managing%20Record%20changes"></a>
+                <a name="//apple_ref/objc/Section/Managing Record changes" class="dashAnchor"></a>
+                <a href="#/Managing%20Record%20changes">
+                  <h3 class="section-name">Managing Record changes</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)hasFailedChanges"></a>
+                    <a name="//apple_ref/objc/Property/hasFailedChanges" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)hasFailedChanges">hasFailedChanges</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns whether there exists changes in this storage
+that cannot be synchronized with
+remote and that the change failed due to a permanent error. A
+permanent error
+refers to an error that is likely to reoccur if the change is performed
+again without modification.</p>
+
+<p>The application should use this property to detect if there
+are failed changes in this storage. Failed changes should
+be acknowledged or resolved.</p>
+
+<p>@returns YES if there exists failed changes</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">hasFailedChanges</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">hasFailedChanges</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L196">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(py)hasPendingChanges"></a>
+                    <a name="//apple_ref/objc/Property/hasPendingChanges" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(py)hasPendingChanges">hasPendingChanges</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Reutrns whether there exists pending changes in this storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">hasPendingChanges</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">hasPendingChanges</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L201">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)pendingChanges"></a>
+                    <a name="//apple_ref/objc/Method/-pendingChanges" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)pendingChanges">-pendingChanges</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an array of pending record changes.</p>
+
+<p>Changes are pending when they have not been sent to server for persistence.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="n">pendingChanges</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">pendingChanges</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L208">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)failedChanges"></a>
+                    <a name="//apple_ref/objc/Method/-failedChanges" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)failedChanges">-failedChanges</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an array of failed record changes.</p>
+
+<p>Changes are failed when persistence result in error from server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="n">failedChanges</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">failedChanges</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L215">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)dismissChange:error:"></a>
+                    <a name="//apple_ref/objc/Method/-dismissChange:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)dismissChange:error:">-dismissChange:error:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Dismisses a record change. Dismissing a change prevents such change
+from being submitted to the remote server.</p>
+
+<p>Specifying a change that is currently processed by the remote server
+will result in an error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">dismissChange</span><span class="p">:(</span><span class="n">SKYRecordChange</span> <span class="o">*</span><span class="p">)</span><span class="nv">item</span> <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">**</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">dismiss</span><span class="p">(</span><span class="n">_</span> <span class="nv">item</span><span class="p">:</span> <span class="kt">SKYRecordChange</span><span class="o">!</span><span class="p">)</span> <span class="k">throws</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L231">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)attributesToSaveWithRecord:"></a>
+                    <a name="//apple_ref/objc/Method/-attributesToSaveWithRecord:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)attributesToSaveWithRecord:">-attributesToSaveWithRecord:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns a dictionary of modified attributes that will be saved to
+remote server.</p>
+
+<p>For each entry in the dictionary, the key is the key of the attribute
+that is changed with an array containing both the old and new value of
+the attribute. The object at index 0 correspond to the old value while
+the object at index 1 correspond to the new value.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nf">attributesToSaveWithRecord</span><span class="p">:(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">)</span><span class="nv">record</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">attributesToSave</span><span class="p">(</span><span class="n">with</span> <span class="nv">record</span><span class="p">:</span> <span class="kt">SKYRecord</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L242">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Applying%20updates"></a>
+                <a name="//apple_ref/objc/Section/Applying updates" class="dashAnchor"></a>
+                <a href="#/Applying%20updates">
+                  <h3 class="section-name">Applying updates</h3>
+                </a>
+              </div>
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)beginUpdating"></a>
+                    <a name="//apple_ref/objc/Method/-beginUpdating" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)beginUpdating">-beginUpdating</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies the storage that it will begin receiving record updates.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">beginUpdating</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">beginUpdating</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L256">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)finishUpdating"></a>
+                    <a name="//apple_ref/objc/Method/-finishUpdating" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)finishUpdating">-finishUpdating</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Notifies the storage that it has received all record updates.</p>
+
+<p>Call this method when the you have finished sending remote record updates to the storage. The
+storage uses this opportunity to commit updates to backing store and fires notification that
+the storage is updated.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">finishUpdating</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">finishUpdating</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L266">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)updateByReplacingWithRecords:"></a>
+                    <a name="//apple_ref/objc/Method/-updateByReplacingWithRecords:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)updateByReplacingWithRecords:">-updateByReplacingWithRecords:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Replace all existing records in the backing store with a new array of records.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateByReplacingWithRecords</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">records</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">updateByReplacing</span><span class="p">(</span><span class="n">withRecords</span> <span class="nv">records</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L271">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorage(im)updateByApplyingChange:recordOnRemote:error:"></a>
+                    <a name="//apple_ref/objc/Method/-updateByApplyingChange:recordOnRemote:error:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorage(im)updateByApplyingChange:recordOnRemote:error:">-updateByApplyingChange:recordOnRemote:error:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Apply a pending change to the backing store.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">updateByApplyingChange</span><span class="p">:(</span><span class="n">SKYRecordChange</span> <span class="o">*</span><span class="p">)</span><span class="nv">change</span>
+                <span class="nf">recordOnRemote</span><span class="p">:(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">)</span><span class="nv">remoteRecord</span>
+                         <span class="nf">error</span><span class="p">:(</span><span class="n">NSError</span> <span class="o">*</span><span class="p">)</span><span class="nv">error</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">update</span><span class="p">(</span><span class="n">byApplying</span> <span class="nv">change</span><span class="p">:</span> <span class="kt">SKYRecordChange</span><span class="o">!</span><span class="p">,</span> <span class="n">recordOnRemote</span> <span class="nv">remoteRecord</span><span class="p">:</span> <span class="kt">SKYRecord</span><span class="o">!</span><span class="p">,</span> <span class="nv">error</span><span class="p">:</span> <span class="kt">Error</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorage.h#L276-L278">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://skygear.io" target="_blank" rel="external">Skygear</a>. All rights reserved. (Last updated: 2017-02-16)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

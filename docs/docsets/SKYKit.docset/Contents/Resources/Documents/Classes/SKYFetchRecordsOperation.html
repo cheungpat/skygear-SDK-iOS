@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SKYFetchRecordsOperation Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/SKYFetchRecordsOperation" class="dashAnchor"></a>
+
+    <a title="SKYFetchRecordsOperation Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SKYKit Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/SkygearIO/skygear-SDK-iOS/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SKYKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      SKYFetchRecordsOperation Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYDeleteRecordsOperation.html">SKYDeleteRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYFetchRecordsOperation.html">SKYFetchRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYGetCurrentUserOperation.html">SKYGetCurrentUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLambdaOperation.html">SKYLambdaOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLogoutUserOperation.html">SKYLogoutUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYModifyRecordsOperation.html">SKYModifyRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorageCoordinator.html">SKYRecordStorageCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRelationPredicate.html">SKYRelationPredicate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResponse.html">SKYResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResultArrayResponse.html">SKYResultArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSequence.html">SKYSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSignupUserOperation.html">SKYSignupUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)SKYUnknownValue">SKYUnknownValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYUserDiscoverPredicate.html">SKYUserDiscoverPredicate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidChangeCurrentUserNotification">SKYContainerDidChangeCurrentUserNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidRegisterDeviceNotification">SKYContainerDidRegisterDeviceNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorLocalizedDescriptionWithCode">SKYErrorLocalizedDescriptionWithCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorNameWithCode">SKYErrorNameWithCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SKYFetchRecordsOperation</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SKYFetchRecordsOperation</span> <span class="p">:</span> <span class="nc">SKYDatabaseOperation</span></code></pre>
+
+                </div>
+              </div>
+            <p><SKYFetchRecordsOperation> is a subclass of <SKYOperation> that implements fetching records from
+Ourd. Use this to
+fetch a number of records by specifying an array of <SKYRecordID>s.</p>
+
+<p>When the operation completes, the <fetchRecordsCompletionBlock> will be called
+with all the fetched records, or an error will be returned stating the error. For each
+<SKYRecordID>, the <perRecordCompletionBlock>
+will be called with the fetched record or an error if one occurred.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(im)initWithRecordIDs:"></a>
+                    <a name="//apple_ref/objc/Method/-initWithRecordIDs:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(im)initWithRecordIDs:">-initWithRecordIDs:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Instantiates an instance of <SKYFetchRecordsOperation> with the desired <SKYRecordID>s.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">initWithRecordIDs</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordIDs</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="nf">init</span><span class="o">!</span><span class="p">(</span><span class="nv">recordIDs</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recordIDs</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of 
+&lt;SKYRecordID</p>
+
+<blockquote>
+<p>s of records to be fetched from Ourd.</p>
+</blockquote>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an instance of SKYFetchRecordsOperation.</p>
+
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L40">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(cm)operationWithRecordIDs:"></a>
+                    <a name="//apple_ref/objc/Method/+operationWithRecordIDs:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(cm)operationWithRecordIDs:">+operationWithRecordIDs:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Creates and returns an instance of <SKYFetchRecordsOperation> with the desired <SKYRecordID>s.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="nf">operationWithRecordIDs</span><span class="p">:(</span><span class="n">NSArray</span> <span class="o">*</span><span class="p">)</span><span class="nv">recordIDs</span><span class="p">;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>recordIDs</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>An array of 
+&lt;SKYRecordID</p>
+
+<blockquote>
+<p>s of records to be fetched from Ourd.</p>
+</blockquote>
+
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>an instance of SKYFetchRecordsOperation.</p>
+
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L48">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(py)recordIDs"></a>
+                    <a name="//apple_ref/objc/Property/recordIDs" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(py)recordIDs">recordIDs</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns an array of <SKYRecordID>s to be fetched from Ourd.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span> <span class="o">*</span><span class="n">recordIDs</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">recordIDs</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L53">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(py)desiredKeys"></a>
+                    <a name="//apple_ref/objc/Property/desiredKeys" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(py)desiredKeys">desiredKeys</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns an array of desired keys to be fetched from each record. A subset of keys for each
+record
+will be fetched from Ourd. <SKYRecord> without the specified keys will not have such key set.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span> <span class="o">*</span><span class="n">desiredKeys</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">desiredKeys</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L60">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(py)perRecordProgressBlock"></a>
+                    <a name="//apple_ref/objc/Property/perRecordProgressBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(py)perRecordProgressBlock">perRecordProgressBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns a block to be called for progress information for each <SKYRecordID>. This is only
+called
+when progress information is available.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">SKYRecordID</span> <span class="o">*</span><span class="p">,</span> <span class="kt">double</span><span class="p">)</span>
+    <span class="n">perRecordProgressBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">perRecordProgressBlock</span><span class="p">:</span> <span class="p">((</span><span class="kt">SKYRecordID</span><span class="p">?,</span> <span class="kt">Double</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L67">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(py)perRecordCompletionBlock"></a>
+                    <a name="//apple_ref/objc/Property/perRecordCompletionBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(py)perRecordCompletionBlock">perRecordCompletionBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns a block to be called when a record fetch operation completes for a <SKYRecordID>.
+If
+the fetch results in an error, the error will be specified.</p>
+
+<p>This block is not called when the entire operation results in an error.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)</span>
+    <span class="p">(</span><span class="n">SKYRecord</span> <span class="o">*</span><span class="p">,</span> <span class="n">SKYRecordID</span> <span class="o">*</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="p">)</span> <span class="n">perRecordCompletionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">perRecordCompletionBlock</span><span class="p">:</span> <span class="p">((</span><span class="kt">SKYRecord</span><span class="p">?,</span> <span class="kt">SKYRecordID</span><span class="p">?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L76">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYFetchRecordsOperation(py)fetchRecordsCompletionBlock"></a>
+                    <a name="//apple_ref/objc/Property/fetchRecordsCompletionBlock" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYFetchRecordsOperation(py)fetchRecordsCompletionBlock">fetchRecordsCompletionBlock</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns a block to be called when the entire operation completes. The fetched records are
+specified
+in an <NSDictionary>. If an error occurred for the entire operation (not individual record), an
+error will
+be specified.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readwrite</span><span class="p">,</span> <span class="n">copy</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="kt">void</span> <span class="p">(</span><span class="o">^</span><span class="p">)(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">,</span> <span class="n">NSError</span> <span class="o">*</span><span class="p">)</span>
+    <span class="n">fetchRecordsCompletionBlock</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">fetchRecordsCompletionBlock</span><span class="p">:</span> <span class="p">(([</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]?,</span> <span class="kt">Error</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYFetchRecordsOperation.h#L86">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://skygear.io" target="_blank" rel="external">Skygear</a>. All rights reserved. (Last updated: 2017-02-16)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>

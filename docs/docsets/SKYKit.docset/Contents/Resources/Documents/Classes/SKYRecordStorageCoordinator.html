@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>SKYRecordStorageCoordinator Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset="utf-8">
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+
+    <a name="//apple_ref/objc/Class/SKYRecordStorageCoordinator" class="dashAnchor"></a>
+
+    <a title="SKYRecordStorageCoordinator Class Reference"></a>
+
+    <header class="header">
+      <p class="header-col header-col--primary">
+        <a class="header-link" href="../index.html">
+          SKYKit Docs
+        </a>
+        
+      </p>
+    
+      <p class="header-col--secondary">
+        <form role="search" action="../search.json">
+          <input type="text" placeholder="Search documentation" data-typeahead>
+        </form>
+      </p>
+    
+        <p class="header-col header-col--secondary">
+          <a class="header-link" href="https://github.com/SkygearIO/skygear-SDK-iOS/">
+            <img class="header-icon" src="../img/gh.png"/>
+            View on GitHub
+          </a>
+        </p>
+    
+    </header>
+
+    <p class="breadcrumbs">
+      <a class="breadcrumb" href="../index.html">SKYKit Reference</a>
+      <img class="carat" src="../img/carat.png" />
+      SKYRecordStorageCoordinator Class Reference
+    </p>
+
+    <div class="content-wrapper">
+      <nav class="navigation">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYDeleteRecordsOperation.html">SKYDeleteRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYFetchRecordsOperation.html">SKYFetchRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYGetCurrentUserOperation.html">SKYGetCurrentUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLambdaOperation.html">SKYLambdaOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYLogoutUserOperation.html">SKYLogoutUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYModifyRecordsOperation.html">SKYModifyRecordsOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRecordStorageCoordinator.html">SKYRecordStorageCoordinator</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYRelationPredicate.html">SKYRelationPredicate</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResponse.html">SKYResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYResultArrayResponse.html">SKYResultArrayResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSequence.html">SKYSequence</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYSignupUserOperation.html">SKYSignupUserOperation</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes.html#/c:objc(cs)SKYUnknownValue">SKYUnknownValue</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Classes/SKYUserDiscoverPredicate.html">SKYUserDiscoverPredicate</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Constants.html">Constants</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidChangeCurrentUserNotification">SKYContainerDidChangeCurrentUserNotification</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Constants.html#/c:@SKYContainerDidRegisterDeviceNotification">SKYContainerDidRegisterDeviceNotification</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a class="nav-group-name-link" href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorLocalizedDescriptionWithCode">SKYErrorLocalizedDescriptionWithCode</a>
+              </li>
+              <li class="nav-group-task">
+                <a class="nav-group-task-link" href="../Functions.html#/c:@F@SKYErrorNameWithCode">SKYErrorNameWithCode</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+
+        <section class="section">
+          <div class="section-content">
+            <h1>SKYRecordStorageCoordinator</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="k">@interface</span> <span class="nc">SKYRecordStorageCoordinator</span> <span class="p">:</span> <span class="nc">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>The <SKYRecordStorageCoordinator> is responsible for keeping
+references to all <SKYRecordStorage> currently registered.
+It allows retrieving <SKYRecordStorage> across application restart
+so that <SKYRecordStorage> is associated with the same persistent
+storage on device.</p>
+
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="section-content">
+            <div class="task-group">
+              <ul class="item-container">
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(py)registeredRecordStorages"></a>
+                    <a name="//apple_ref/objc/Property/registeredRecordStorages" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(py)registeredRecordStorages">registeredRecordStorages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an array of registered <SKYRecordStorage>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">readonly</span><span class="p">,</span> <span class="n">nonatomic</span><span class="p">)</span> <span class="n">NSArray</span> <span class="o">*</span><span class="n">registeredRecordStorages</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">registeredRecordStorages</span><span class="p">:</span> <span class="p">[</span><span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L48">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(py)purgeStoragesOnCurrentUserChanges"></a>
+                    <a name="//apple_ref/objc/Property/purgeStoragesOnCurrentUserChanges" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(py)purgeStoragesOnCurrentUserChanges">purgeStoragesOnCurrentUserChanges</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sets or returns whether registered <SKYRecordStorage> are auto-purged on user login or logout.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">@property</span> <span class="p">(</span><span class="n">getter</span><span class="o">=</span><span class="n">isPurgeStoragesOnCurrentUserChanges</span><span class="p">,</span> <span class="n">assign</span><span class="p">,</span> <span class="n">readwrite</span><span class="p">,</span>
+          <span class="n">nonatomic</span><span class="p">)</span> <span class="n">BOOL</span> <span class="n">purgeStoragesOnCurrentUserChanges</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="k">var</span> <span class="nv">isPurgeStoragesOnCurrentUserChanges</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L53-L54">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(cm)defaultCoordinator"></a>
+                    <a name="//apple_ref/objc/Method/+defaultCoordinator" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(cm)defaultCoordinator">+defaultCoordinator</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns the singleton instance of <SKYRecordStorageCoordinator>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">+</span> <span class="p">(</span><span class="n">instancetype</span><span class="p">)</span><span class="n">defaultCoordinator</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">class</span> <span class="kd">func</span> <span class="err">`</span><span class="k">default</span><span class="err">`</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="k">Self</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L59">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(im)recordStorageWithDatabase:query:options:"></a>
+                    <a name="//apple_ref/objc/Method/-recordStorageWithDatabase:query:options:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(im)recordStorageWithDatabase:query:options:">-recordStorageWithDatabase:query:options:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Returns an instance of SKYRecordStorage that is set up to be synchronized
+with the specified scope.</p>
+
+<p>If the instance of SKYRecordStorage has been created previously with
+<SKYRecord> persisted in the local storage, the same set of <SKYRecord>
+will be available to the returned <SKYRecordStorage>.</p>
+
+<p>The coordinator keeps references to all <SKYRecordStorage> and
+all of them will synchronize with the remote server.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n"><a href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a></span> <span class="o">*</span><span class="p">)</span><span class="nf">recordStorageWithDatabase</span><span class="p">:(</span><span class="n">SKYDatabase</span> <span class="o">*</span><span class="p">)</span><span class="nv">database</span>
+                                          <span class="nf">query</span><span class="p">:(</span><span class="n">SKYQuery</span> <span class="o">*</span><span class="p">)</span><span class="nv">query</span>
+                                        <span class="nf">options</span><span class="p">:(</span><span class="n">NSDictionary</span> <span class="o">*</span><span class="p">)</span><span class="nv">options</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">recordStorage</span><span class="p">(</span><span class="n">with</span> <span class="nv">database</span><span class="p">:</span> <span class="kt">SKYDatabase</span><span class="o">!</span><span class="p">,</span> <span class="nv">query</span><span class="p">:</span> <span class="kt">SKYQuery</span><span class="o">!</span><span class="p">,</span> <span class="nv">options</span><span class="p">:</span> <span class="p">[</span><span class="kt">AnyHashable</span> <span class="p">:</span> <span class="kt">Any</span><span class="p">]</span><span class="o">!</span> <span class="o">=</span> <span class="p">[:])</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a></span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L74-L76">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(im)forgetRecordStorage:"></a>
+                    <a name="//apple_ref/objc/Method/-forgetRecordStorage:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(im)forgetRecordStorage:">-forgetRecordStorage:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes an <SKYRecordStorage> from an internal registry of local storage.</p>
+
+<p>When this method is called, the coordinator will not propagate remote
+record updates to the specified <SKYRecordStorage></p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="nf">forgetRecordStorage</span><span class="p">:(</span><span class="n"><a href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a></span> <span class="o">*</span><span class="p">)</span><span class="nv">recordStorage</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">forget</span><span class="p">(</span><span class="n">_</span> <span class="nv">recordStorage</span><span class="p">:</span> <span class="kt"><a href="../Classes/SKYRecordStorage.html">SKYRecordStorage</a></span><span class="o">!</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L94">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(im)forgetAllRecordStorages"></a>
+                    <a name="//apple_ref/objc/Method/-forgetAllRecordStorages" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(im)forgetAllRecordStorages">-forgetAllRecordStorages</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Removes all <SKYRecordStorage> from an internal registry of local storage.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="kt">void</span><span class="p">)</span><span class="n">forgetAllRecordStorages</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">forgetAllRecordStorages</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L99">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:objc(cs)SKYRecordStorageCoordinator(im)handleUpdateWithRemoteNotification:"></a>
+                    <a name="//apple_ref/objc/Method/-handleUpdateWithRemoteNotification:" class="dashAnchor"></a>
+                    <a class="token" href="#/c:objc(cs)SKYRecordStorageCoordinator(im)handleUpdateWithRemoteNotification:">-handleUpdateWithRemoteNotification:</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Handles remote notification payload so that all registered <SKYRecordStorage>
+have a chance to updates its local storage.</p>
+
+<p>You are expecte to call this method when in your implementation of
+-[UIApplicationDelegate application:didReceiveRemoteNotification:].</p>
+
+<p>If this method returns YES, it means the remote notification
+has been handled by <SKYRecordStorageCoordinator>.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Objective-C</p>
+                          <pre class="highlight"><code><span class="k">-</span> <span class="p">(</span><span class="n">BOOL</span><span class="p">)</span><span class="nf">handleUpdateWithRemoteNotification</span><span class="p">:(</span><span class="n">SKYNotification</span> <span class="o">*</span><span class="p">)</span><span class="nv">note</span><span class="p">;</span></code></pre>
+
+                        </div>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">func</span> <span class="nf">handleUpdate</span><span class="p">(</span><span class="n">withRemoteNotification</span> <span class="nv">note</span><span class="p">:</span> <span class="kt">SKYNotification</span><span class="o">!</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div class="slightly-smaller">
+                        <a href="https://github.com/SkygearIO/skygear-SDK-iOS/tree/master/Pod/Classes/SKYRecordStorageCoordinator.h#L111">Show on GitHub</a>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </article>
+    </div>
+    <section class="footer">
+      <p>&copy; 2017 <a class="link" href="https://skygear.io" target="_blank" rel="external">Skygear</a>. All rights reserved. (Last updated: 2017-02-16)</p>
+      <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.7.4</a>, a <a class="link" href="http://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+    </section>
+  </body>
+</div>
+</html>
